@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid布局</title>
+    <style type="text/css">
+        .parent {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas: 'left right';
+        }
+        .left {
+            background-color: blue;
+        }
+        .right {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="left">
+        <p>left</p>
+        <p>left</p>
+        <p>left</p>
+    </div>
+    <div class="right">
+        <p>right</p>
+        <p>right</p>
+    </div>
+</div>
+</body>
+</html>

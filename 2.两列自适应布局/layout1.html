@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float+overflow:hidden</title>
+    <style type="text/css">
+        .parent {
+            overflow: hidden;
+        }
+        .left {
+            background-color: blue;
+            float: left;
+            width: 200px;
+            height: 300px;
+        }
+        .right {
+            background-color: red;
+            height: 300px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="left">
+        <p>left</p>
+        <p>left</p>
+        <p>left</p>
+    </div>
+    <div class="right">
+        <p>right</p>
+        <p>right</p>
+    </div>
+</div>
+</body>
+</html>
